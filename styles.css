@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.first{
+	display:inline;
+	position: relative;
+	left:100%;
+	animation-name:first_ani;
+	animation-duration:10s;
+}
+@keyframes first_ani {
+	from{
+		left:100%;
+	}
+	to{
+		left:0%;
+	}
+}
+.image1{
+	height:200px;
+	width:300px;
+}
+.para{
+	text-decoration:none;
+}
+a{
+	color:rgb(85,26,139);
+}
